@@ -1,5 +1,7 @@
-package com.mrcookies.productionservice;
+package com.mrcookies.productionservice.controller;
 
+import com.mrcookies.productionservice.dto.FortuneCookies;
+import com.mrcookies.productionservice.service.ProductionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +16,7 @@ import java.util.List;
 public class ProductionController {
 
     @Autowired
-    @Qualifier("production")
+    @Qualifier("feign")
     ProductionService productionService;
 
     @GetMapping("/{amountToProduce}")

@@ -1,6 +1,8 @@
-package com.mrcookies.productionservice;
+package com.mrcookies.productionservice.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.mrcookies.productionservice.dto.FortuneCookies;
+import com.mrcookies.productionservice.dto.FortuneMessage;
+import com.mrcookies.productionservice.service.ProductionService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
@@ -11,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Qualifier("production")
+@Qualifier("external")
 public class ProductionServiceExternal implements ProductionService {
 
 

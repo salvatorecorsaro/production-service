@@ -1,4 +1,6 @@
-package com.mrcookies.productionservice;
+package com.mrcookies.productionservice.service;
+
+import com.mrcookies.productionservice.dto.FortuneCookies;
 
 import java.util.List;
 

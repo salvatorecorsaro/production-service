@@ -1,5 +1,7 @@
-package com.mrcookies.productionservice;
+package com.mrcookies.productionservice.service;
 
+import com.mrcookies.productionservice.dto.FortuneCookies;
+import com.mrcookies.productionservice.service.ProductionService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 

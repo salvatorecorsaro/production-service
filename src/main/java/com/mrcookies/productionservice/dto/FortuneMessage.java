@@ -1,4 +1,4 @@
-package com.mrcookies.productionservice;
+package com.mrcookies.productionservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class FortuneCookies {
+public class FortuneMessage {
 
     private String message;
-
 }
